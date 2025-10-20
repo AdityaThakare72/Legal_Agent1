@@ -1,0 +1,60 @@
+pandas
+langchain-groq
+numpy
+requests
+transformers
+torch
+torchvision
+flask
+flask-cors
+fastapi
+uvicorn
+pytest
+pytest-cov
+torchtext
+torchaudio
+torchinfo
+scikit-learn
+matplotlib
+seaborn
+jupyterlab
+notebook
+spacy
+nltk
+wandb
+langchain-core
+langchain-community
+openai
+datasets
+tqdm
+tokenizers
+
+
+
+# --- Core Frameworks ---
+# The master orchestrator for our AI application
+langchain
+# For integrating with OpenAI's models (can be swapped for other providers)
+langchain-openai
+
+# --- Vector Database ---
+# Our "memory palace" for storing and retrieving document knowledge
+chromadb
+
+# --- Embeddings ---
+# To turn text into numerical vectors. The "alchemist" of our setup.
+# This is for using open-source Hugging Face models.
+sentence-transformers
+
+# --- Document Loaders ---
+# For reading specific file types, like PDFs. Add more as needed.
+pypdf
+
+# --- Utilities ---
+# For managing secret keys (like your OpenAI API key) in a .env file
+python-dotenv
+# Essential for experimenting and building in an interactive way
+ipykernel
+
+
+google-generativeai

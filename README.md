@@ -1,0 +1,1 @@
+venv location => (/home/aditya/RAG_Practice/RAG_GENAI) 
