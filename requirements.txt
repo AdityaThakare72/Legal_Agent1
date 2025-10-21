@@ -36,7 +36,8 @@ tokenizers
 langchain
 # For integrating with OpenAI's models (can be swapped for other providers)
 langchain-openai
-
+streamlit-chat
+langchain-google-genai
 # --- Vector Database ---
 # Our "memory palace" for storing and retrieving document knowledge
 chromadb
@@ -58,3 +59,4 @@ ipykernel
 
 
 google-generativeai
+langchain-google-vertexai
