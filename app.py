@@ -1,8 +1,7 @@
-# --- The Soul and Mouth of the Legal Agent (GenAI Version - Divined) ---
+
 
 import streamlit as st
 from langchain_core.messages import AIMessage, HumanMessage
-# CORRECTED IMPORT: Use GoogleGenerativeAIEmbeddings (uppercase AI)
 from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain
@@ -47,7 +46,7 @@ def load_resources():
             embedding_function=embedding_function,
             collection_name=COLLECTION_NAME
         )
-        # Add a check to ensure the collection was loaded properly
+        # Adding a check to ensure the collection was loaded properly
         count = vector_store._collection.count()
         print(f"Vector store loaded. Collection '{COLLECTION_NAME}' has {count} items.")
         if count == 0:
