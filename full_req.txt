@@ -3,8 +3,6 @@ langchain-groq
 numpy
 requests
 transformers
-torch
-torchvision
 flask
 flask-cors
 fastapi
